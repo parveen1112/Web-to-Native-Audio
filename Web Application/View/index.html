@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+    <title>Web Audio Client</title>
+    <link rel="stylesheet" href="/static/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/style/site.css">
+
+    <script src="/static/jquery.min.js"></script>
+    <script src="/static/jquery-ui.min.js"></script>
+    <script src="/static/binary.js"></script>
+    <script src="/static/audioCapture.js"></script>
+    
+</head>
+<body>
+<div id="inputDialog" style="display:none" title="Input Form">
+    <form id="inputForm">
+        <input type="text" pattern="([0-9]{1,3}\.){3}[0-9]{1,3}" title="Please Enter Valid IP Address" placeholder="Server Address" name="serverAddress" required>
+        <br/><br/>
+        <input type="text" pattern="([0-9]{1,3}\.){3}[0-9]{1,3}" title="Please Enter Valid IP Address" placeholder="Client Address" name="clientAddress" required>
+    </form>
+</div>
+<div id="container">
+    <h2>Web Audio Client</h2>
+    <button id="start" tooltip="Start Capturing and Sending Audio Data to Server">Start</button>
+    <button id="stop" tooltip="Stop Sending Audio Data to Server">Stop</button>
+    <div id="canvasContainer">
+        <canvas id="canvas"></canvas>
+    </div>
+</div>
+
+</body>
+</html>

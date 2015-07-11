@@ -1,0 +1,16 @@
+#container{
+    margin-top : 20px;
+    margin-left : 20px;
+}
+
+#canvasContainer{
+    margin-top: 20px;
+    border: 1px dashed black;
+    align-content: center;
+    height: 100px;
+    width: 800px;
+}
+#canvas {
+    height: 100px;
+    width: 800px;
+}

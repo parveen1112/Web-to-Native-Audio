@@ -1,0 +1,14 @@
+{
+  "name": "WebToNativeAudio",
+  "version": "1.0.0",
+  "description": "Web to Native Audio Client",
+  "private": true,
+  "dependencies": {
+    "net": "~1.0.2",
+    "streamers": "~0.1.1",
+    "streamws": "~0.1.1",
+    "express": "~4.13.1",
+    "body-parser": "~1.13.2",
+    "binaryjs" : "~0.2.x",
+  }
+}
