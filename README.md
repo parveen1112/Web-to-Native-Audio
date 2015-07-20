@@ -1,16 +1,16 @@
-Web to Native Audio :
+#Web to Native Audio :
 
-Features:
+#Features:
 1.It currently transfers audio from Web to Native Client only.
 
-Requirements:
+#Requirements:
 1.It requires Node.js 0.10.x
 2. Web Application is already packaged with node_modules. One can use these modules or install the node modules using package.json in Web Application.
 3. Native Client is build using Qt, C++. Qt version 4.7.4. It is a Qt Application and build it accordingly. (You can find it on internet)
 4. Executable will be created in bin folder and it requires configure.xml file which exists in the bin folder as well.
 
 
-How to use:
+#How to use:
 I have created all the required servers in one file Server.js in Web Application.
 
 1. After installing the node.js and node modules. Type
@@ -30,5 +30,5 @@ I have created all the required servers in one file Server.js in Web Application
 
 Then start speaking on the web client and listen on the Native Client. :)
 
-If you are still not able to run it. Then mail me
-    Parveen Arora - parveen1112@gmail.com
+If you are still not able to run it or wish to contribute. Then mail me
+    Parveen Arora - <a href="mailto:parveen1112@gmail.com">parveen1112@gmail.com</a>
